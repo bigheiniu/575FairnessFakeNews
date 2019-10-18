@@ -69,7 +69,7 @@ def train_test_val_split(news_df, save_path):
 
 
 if __name__ == '__main__':
-    data_path = ""
+    data_path = "/home/yichuan/fake_news/gossip"
     save_path = ""
 
     load_news_content(data_path=data_path, save_path=save_path)
